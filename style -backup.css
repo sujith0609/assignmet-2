@@ -1,0 +1,204 @@
+body {
+    margin: 0;
+    overflow-x: hidden;
+    min-width: 100;
+    padding: 0;
+    background: #fafafa;
+}
+
+.main {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    color: rgb(247, 241, 241);
+}
+
+.gnav {
+    color: white;
+    background-color: black;
+    padding: 1px;
+}
+
+.img-content {
+    width: 100%;
+}
+
+.navbar {
+    height: auto;
+    width: 100%;
+    background: rgb(22, 22, 22);
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    position: relative;
+    height: 100%;
+    width: 20%;
+    font-family: 'lato', sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+    left: 10%;
+}
+
+.logo:hover {
+    color: rgba(25, 39, 230, 0.925);
+}
+
+ul {
+    position: relative;
+    height: 100%;
+    font-family: 'cinzel', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    left: 10%;
+}
+
+li {
+    list-style-type: none;
+    display: inline-block;
+    border: 1px solid rgb(247, 247, 247);
+    border-radius: 6px;
+    cursor: pointer;
+    padding: 10px;
+    box-shadow: 0px 0.5px 5px rgb(250, 249, 249);
+    transition: 0.1s ease-in-out;
+    box-sizing: border-box;
+}
+
+.navbar a {
+    color: rgb(226, 211, 211);
+    text-align: center;
+    text-decoration: none;
+    font-family: 'cinzel', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    display: block;
+}
+
+.abcd {
+    list-style-type: none;
+    background-color: rgb(236, 11, 48);
+    display: inline-block;
+    cursor: pointer;
+    padding: 45px;
+    transition: 0.1s ease-in-out;
+    position: relative;
+    font-family: 'cinzel', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    left: 27%;
+}
+
+.sujith a {
+    color: rgb(255, 247, 253);
+    text-align: center;
+    text-decoration: none;
+    font-family: 'cinzel', sans-serif;
+    font-size: 30px;
+    font-weight: 100;
+    display: block;
+}
+
+li:hover {
+    background: rgba(25, 178, 224, 0.4);
+}
+
+.heading {
+    position: absolute;
+    height: auto;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    text-shadow: 0px 0.5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.heading .head {
+    font-family: 'RacingSansOne', sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    color: rgb(10, 10, 10);
+}
+
+.heading .head span {
+    color: #017fb5;
+}
+
+.sub {
+    font-family: 'cinzel', sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    color: rgba(5, 5, 5, 0.993);
+    margin: 2% 0;
+}
+
+.btns {
+    display: flex;
+    justify-content: center;
+}
+
+.btns a {
+    color: rgb(8, 8, 8);
+    text-align: center;
+    text-decoration: none;
+    font-family: 'cinzel', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    display: block;
+    border: 3px solid rgb(8, 8, 8);
+    height: auto;
+    width: 150px;
+    padding: 10px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1%;
+    border-radius: 2px;
+    transition: 0.2s ease-in-out;
+}
+
+.btns a:hover {
+    background: #017fb5;
+    border: 3px solid #0f0f0f;
+    color: rgba(255, 255, 255, 0.95);
+}
+
+.btns .btn1 {
+    background: #048ea09c;
+    border: 3px solid #070707;
+}
+
+.btns .btn1:hover {
+    background: #017fb5;
+    border: 3px solid #030303;
+    color: rgba(255, 255, 255, 0.95);
+}
+
+.container {
+    position: relative;
+    text-align: center;
+}
+
+.live-chat {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    font-size: 21px;
+    width: 25%;
+    background-color: blue;
+    border: 2px solid black;
+    border-radius: 16px;
+}
+
+.userlogo {
+    width: 7%;
+    padding-right: 15px;
+}
+
+.up-arrow {
+    width: 5%;
+    padding-left: 15px;
+}
